@@ -9,8 +9,6 @@ params:
   googleAnalytics: Your tracking code
   showBuiltWith: false
   toc: hugo
-  
-
 
 Menus:
   main:
@@ -23,8 +21,8 @@ Menus:
     - Name: Posts
       URL: /posts/
       weight: 300
-    - Name: "About"
-      URL: about
+    - Name: About
+      URL: /about/
 
   
 
