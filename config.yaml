@@ -1,0 +1,17 @@
+theme: "hyde"
+baseURL: "https://adamweld.com/crosscast"
+languageCode: "en-us"
+title: "CrossCast"
+
+params:
+  description: "Your custom description"
+  themeColor: "theme-base-08"
+  googleAnalytics: Your tracking code
+
+Menus:
+  main:
+    - Name: "Github"
+      URL: "https://github.com/adamweld/"
+    - Name: "LinkedIn"
+      URL: "https://www.linkedin.com/in/adamweld/"
+
