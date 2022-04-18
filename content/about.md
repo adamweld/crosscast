@@ -1,9 +1,8 @@
-+++
-title = "About"
+---
+title: About
+# type: about
 
-[menu.main]
-	weight = 1
-+++
+---
 
 
 ## Wahoo

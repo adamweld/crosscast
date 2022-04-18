@@ -5,24 +5,22 @@ title: CrossCast
 
 params:
   description: all the forecasts
-  # themeColor: "theme-base-08"
-  googleAnalytics: Your tracking code
+  themeColor: "theme-base-08"
+  # googleAnalytics: Your tracking code
   showBuiltWith: false
   toc: hugo
 
 Menus:
   main:
-    - Name: "Github"
-      URL: "https://github.com/adamweld/"
-      weight: 100
-    - Name: "LinkedIn"
-      URL: "https://www.linkedin.com/in/adamweld/"
-      weight: 200
-    - Name: Posts
-      URL: /posts/
-      weight: 300
+    - Name: All
+      URL: /sites/
+    - Name: Flying
+      URL: /sites/flying
+    - Name: Skiing
+      URL: /sites/skiing
     - Name: About
       URL: /about/
+  
 
   
 
