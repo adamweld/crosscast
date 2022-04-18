@@ -1,11 +1,11 @@
-theme: "hyde-hyde"
-baseURL: "https://adamweld.com/crosscast"
-languageCode: "en-us"
-title: "CrossCast"
+theme: hyde-hyde
+baseURL: https://adamweld.com/crosscast
+languageCode: en-us
+title: CrossCast
 
 params:
-  description: "all the forecasts"
-  themeColor: "theme-base-08"
+  description: all the forecasts
+  # themeColor: "theme-base-08"
   googleAnalytics: Your tracking code
   showBuiltWith: false
   toc: hugo
