@@ -85,11 +85,11 @@ html {
 
 /* Sidebar nav */
 .sidebar-nav {
-  padding-left: 0;
-  list-style: none;
+  margin-bottom: 1rem;
 }
 .sidebar-nav-item {
   display: block;
+  line-height: 1.75;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -155,14 +155,14 @@ a.sidebar-nav-item:focus {
   }
   .layout-reverse .content {
     margin-left: 2rem;
-    margin-right: 20rem;
+    /*margin-right: 20rem;*/
   }
 }
 
 @media (min-width: 64em) {
   .layout-reverse .content {
     margin-left: 4rem;
-    margin-right: 22rem;
+    /*margin-right: 22rem;*/
   }
 }
 
