@@ -1,4 +1,4 @@
-theme: "hyde"
+theme: "hydemod"
 baseURL: "https://adamweld.com/crosscast"
 languageCode: "en-us"
 title: "CrossCast"
