@@ -4,14 +4,27 @@ languageCode: "en-us"
 title: "CrossCast"
 
 params:
-  description: "Your custom description"
+  description: "all the forecasts"
   themeColor: "theme-base-08"
   googleAnalytics: Your tracking code
+  showBuiltWith: false
+  toc: hugo
+  
+
 
 Menus:
   main:
     - Name: "Github"
       URL: "https://github.com/adamweld/"
+      weight: 100
     - Name: "LinkedIn"
       URL: "https://www.linkedin.com/in/adamweld/"
+      weight: 200
+    - Name: Posts
+      URL: /posts/
+      weight: 300
+    - Name: "About"
+      URL: about
+
+  
 
