@@ -5,21 +5,27 @@ title: CrossCast
 
 params:
   description: all the forecasts
-  themeColor: "theme-base-08"
+  themeColor: theme-base-08
   # googleAnalytics: Your tracking code
   showBuiltWith: false
-  toc: hugo
+  # toc: hugo
+  postNavigation: false
+  mainSections: sites
 
 Menus:
   main:
     - Name: All
       URL: /sites/
+      weight: 100
     - Name: Flying
       URL: /sites/flying
+      weight: 200
     - Name: Skiing
       URL: /sites/skiing
+      weight: 300
     - Name: About
       URL: /about/
+      weight: 400
   
 
   
