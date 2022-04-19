@@ -1,5 +1,5 @@
-{{ $lat := .lat}}
-{{ $lon := .lon}}
+{{ $lat := .Params.lat}}
+{{ $lon := .Params.lon}}
 
 <span>
     <img src="getWeatherUrl("{{ $lat }}, {{ $lon}}, 0) alt="weather block 1">
