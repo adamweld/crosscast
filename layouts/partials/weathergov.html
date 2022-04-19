@@ -1,8 +1,9 @@
-{{ $somevar := "spam"}}
+{{ $lat := 1}}
+{{ $lon := 1}}
 
 <span>
-    <img src="" id="123456" alt="alternatetext">
-    <!-- <button onclick="myFunction( {{ $somevar }} )">Click me</button> -->
-    <script type="text/javascript"> addimage("123456") </script>
+    <img src="getWeatherUrl("{{ $lat }}, {{ $long}}, 0) alt="weather block 1">
+    <img src="getWeatherUrl("{{ $lat }}, {{ $long}}, 48) alt="weather block 1">
+    <img src="getWeatherUrl("{{ $lat }}, {{ $long}}, 96) alt="weather block 1">
 </span>
 
