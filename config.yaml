@@ -1,4 +1,5 @@
 theme: flyde
+# min-version: 0.55
 baseURL: https://adamweld.com/crosscast
 languageCode: en-us
 title: Crosscast
