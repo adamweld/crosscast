@@ -14,18 +14,18 @@ params:
 
 Menus:
   main:
-    - Name: Zones
-      URL: /zones/
-      weight: 000
-    - Name: All
-      URL: /sites/
-      weight: 100
-    - Name: Flying
-      URL: /sites/flying
-      weight: 200
-    - Name: Skiing
-      URL: /sites/skiing
-      weight: 300
+    # - Name: Zones
+    #   URL: /zones/
+    #   weight: 000
+    # - Name: All
+    #   URL: /sites/
+    #   weight: 100
+    # - Name: Flying
+    #   URL: /sites/flying
+    #   weight: 200
+    # - Name: Skiing
+    #   URL: /sites/skiing
+    #   weight: 300
     - Name: About
       URL: /about/
       weight: 400

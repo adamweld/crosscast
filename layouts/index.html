@@ -4,19 +4,9 @@
 
 {{ define "content" }}
   <div class="post-list">
-    {{ range .Site.RegularPages }}
-      <div class="post-list__item">
-        <span class="item__title--big">
-          <a href="{{ .RelPermalink }}" >{{ .Title }}</a>
-        </span>
-        {{ if .Description }}
-        {{ .Description }}
-        {{ else }}
-        {{ .Summary }}
-        {{ end }}
-        </span>
-        </div>
-     {{ end }}
+    {{ range where .Site.Pages "Kind" "page" }}
+      {{ .Render "summary"}}
+    {{ end }}
   </div>
 {{ end }}
 

@@ -26,5 +26,4 @@ function setImgUrl(lat, lon, hour, id) {
     &ahour=${hour}
     &pcmd=111011111100000000000000000000000000000000000000000000000
     &lg=en&indu=1!1!1&dd=0&nocache=1650340298`;
-    alert("!!!!");
 }
