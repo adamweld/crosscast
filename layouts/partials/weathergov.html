@@ -1,9 +1,9 @@
-{{ $lat := 1}}
-{{ $lon := 1}}
+{{ $lat := .lat}}
+{{ $lon := .lon}}
 
 <span>
-    <img src="getWeatherUrl("{{ $lat }}, {{ $long}}, 0) alt="weather block 1">
-    <img src="getWeatherUrl("{{ $lat }}, {{ $long}}, 48) alt="weather block 1">
-    <img src="getWeatherUrl("{{ $lat }}, {{ $long}}, 96) alt="weather block 1">
+    <img src="getWeatherUrl("{{ $lat }}, {{ $lon}}, 0) alt="weather block 1">
+    <img src="getWeatherUrl("{{ $lat }}, {{ $lon}}, 48) alt="weather block 1">
+    <img src="getWeatherUrl("{{ $lat }}, {{ $lon}}, 96) alt="weather block 1">
 </span>
 
