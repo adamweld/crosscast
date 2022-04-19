@@ -1,1 +1,9 @@
-{{ partial "weathergov.html" . }}
+<div class="post-list__item">
+    <!-- zone title and link -->
+    <span class="item__title--big">
+        <a id="title_id" href="{{ .RelPermalink }}" >{{ .Title }} </a>
+    </span>
+    <button onclick="createWeatherImg( {{ .Params.lat }}, {{ .Params.lon }}, 0, 'title_id')">Click me</button>
+  
+    
+</div> 
