@@ -4,18 +4,11 @@
 
 {{ define "content" }}
   <div class="post-list">
-    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections) }}
-    {{ range $paginator.Pages }}
-      {{ if .Draft }}
-        {{ .Scratch.Set "draftPage" true }}
-      {{ else }}
-        {{ .Scratch.Set "draftPage" false }}
-      {{ end }}
+    {{ range .Site.RegularPages }}
       <div class="post-list__item">
         <span class="item__title--big">
-          <a href="{{ .RelPermalink }}" {{if .Scratch.Get "draftPage" }}class="draft"{{end}}>{{ .Title }}</a>
+          <a href="{{ .RelPermalink }}" >{{ .Title }}</a>
         </span>
-        <span {{if .Scratch.Get "draftPage" }}class="draft"{{end}}>
         {{ if .Description }}
         {{ .Description }}
         {{ else }}
@@ -23,10 +16,8 @@
         {{ end }}
         </span>
         </div>
-        {{ .Scratch.Delete "draftPage" }}
      {{ end }}
   </div>
-  {{ partial "pagination.html" . }}
 {{ end }}
 
 {{ define "footer" }}

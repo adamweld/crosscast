@@ -1,19 +1,21 @@
 theme: flyde
 baseURL: https://adamweld.com/crosscast
 languageCode: en-us
-title: CrossCast
+title: Crosscast
 
 params:
-  description: all the forecasts
+  description: give me all the forecasts!
   themeColor: theme-base-08
-  # googleAnalytics: Your tracking code
+  googleAnalytics: G-0Z2CX34J1S
   showBuiltWith: false
-  # toc: hugo
   postNavigation: false
   mainSections: sites
 
 Menus:
   main:
+    - Name: Zones
+      URL: /zones/
+      weight: 000
     - Name: All
       URL: /sites/
       weight: 100
