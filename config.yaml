@@ -12,6 +12,11 @@ params:
   postNavigation: false
   mainSections: sites
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 Menus:
   main:
     # - Name: Zones

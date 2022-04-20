@@ -1,6 +1,5 @@
 ---
-title: Baker
-lat: 47.50421
-lon: -122.00455
+title: Baker Base
+lat: 48.8573
+lon: -121.6606
 ---
-![alt1](img1.png)

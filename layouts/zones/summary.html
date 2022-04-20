@@ -1,11 +1,9 @@
-<script defer language="javascript" type="text/javascript"  src="{{ "/js/crosscast.js" | urlize | relURL }}"></script>
-
 <div class="post-list__item">
     <!-- zone title and link -->
     <span class="item__title--big">
         <a id="{{ .File.UniqueID }}" href="{{ .RelPermalink }}" >{{ .Title }} </a>
     </span>
 
-    <img onload="setImgUrl({{ .Params.lat }}, {{ .Params.lon }}, 0, {{ .File.UniqueID }})" src="https://cdn-icons-png.flaticon.com/128/3917/3917754.png" alt="weather">
-    <button onclick="myFunction('x')">Click me</button>
+    <!-- <img id="{{ .File.UniqueID }}" onload="setImgUrl({{ .Params.lat }}, {{ .Params.lon }}, 0, {{ .File.UniqueID }})" src="https://cdn-icons-png.flaticon.com/128/3917/3917754.png" alt="weather"> -->
+    <button onclick="createWeatherImg({{ .Params.lat }}, {{ .Params.lon }}, 0, {{ .File.UniqueID }})">Click me</button>
 </div> 
